@@ -15,3 +15,10 @@ img{
     float: right;
     margin-left: 10px;
 }
+th{color: white;
+    background-color:#222222 ;
+}
+
+td{
+    background-color: #eeeeee;
+}
