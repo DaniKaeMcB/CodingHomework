@@ -1,0 +1,96 @@
+/* ### Colors */
+/* Green: #20c063 / RGBA(32,192,99,1) */
+/* Gray: #e8e9ea  / RGBA (232,233,234,1) */
+/* Dark Text: #3b4144 / RGBA (59,65,68,1) */
+body{
+
+}
+
+.navheader{
+    display: flex;
+    background-color:#448b2e ;
+    padding: 10px;
+    
+}
+.headerlogo{
+    color: white;
+    display: flex;
+    background-color: red;
+    
+}
+.headerlogo_nav{
+    color: white;
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+    
+    
+}
+.header_nav2{
+    display: flex;
+    justify-content: end;
+    gap:10px;
+    color: white;
+    list-style: none;
+    margin: 0;
+    padding-left: 800px;
+    
+}
+
+
+.Houses{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 12.5fr 12.5fr 12.5fr 12.5fr 12.5fr 12.5fr 12.5fr 12.5fr;
+    background-color: rgb(217, 234, 217);
+    row-gap: 10px;
+    
+
+}
+
+.homesforsale{
+    background-color: orange;
+    display: flex;
+    margin: 0;
+    padding-top: 30px;
+    max-height: 50px;
+}
+.realestate{
+    display: flex;
+    justify-content:center;
+    box-sizing: content-box;
+    font-size: 18px;
+    background-color: red;
+    margin: 10px 0 0 0;
+    width: 20%;
+
+}
+
+.homesavailable{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    box-sizing: content-box;
+    font-size: 18px;
+    /* width: 40%; */ 
+}
+
+.bedsbathsqft{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.divsub1{ background-color: white;
+    gap: 10px;
+}
+
+.houses .div1{
+    box-sizing: border-box;
+    gap: 10px;
+    justify-content: space-between;
+
+}
+
+

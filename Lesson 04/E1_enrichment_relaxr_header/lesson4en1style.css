@@ -1,0 +1,26 @@
+body{
+
+}
+.mainmenu{
+    background-color: black;
+    display: flex;
+   justify-content: space-between;
+    border-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: yellow;
+}
+.startupmatchmaker{
+    font-size: 35px;
+    color: yellow;
+    justify-content: start;
+   /* margin-right: 400px;*/
+   
+}
+
+.mainmenuitems{
+    list-style-type: none;
+    font-size: 20px;
+    display: flex;
+    color: white;
+    gap: 20px;
+}

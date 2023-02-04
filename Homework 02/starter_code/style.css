@@ -1,0 +1,179 @@
+/* ################################################## */
+/* ########### Global classes / overrides ########### */
+/* ################################################## */
+body{ 
+
+}
+*{
+  /* box-sizing: border-box; */
+}
+.mainmenu{
+  background-color: black;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  border-bottom: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: #f2ff00 ;
+}
+.startupmatchmaker{
+  font-size: 35px;
+  color:  #f2ff00;
+  justify-content: start;
+  margin-right: 400px;
+ 
+}
+
+.mainmenuitems{
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  width: 1100px;
+
+}
+.mainmenuitems a,
+.mainmenuitems a:visited{
+  color: white;
+  text-decoration: none;
+}
+.twobrains{
+  
+  background-color: #adadad;
+  font-style: italic;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 20px 0;
+
+}
+.are{
+  text-decoration-color: #f2ff00;
+  margin: 0 5px 0 5px;
+}
+.taste{
+  margin: 0 5px 0 5px;
+}
+.meetyourmatch{
+
+  background-color: rgba(245, 245, 245, 0.83);
+  margin: 80px 40px 80px 0;
+  padding: 50px 50px 50px 50px;
+  width: 380px;
+}
+.meetyourmatchNav{
+  justify-content: end;
+  display: flex;
+  background-color: orange;
+  background-image: url( https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg);
+  background-size: cover;
+  padding: 100px;
+  
+}
+.meetyourmatchNav h3,.meetyourmatchNav p{
+  display: flex;
+  font-family: 'Lato', sans-serif;
+  /* padding-right: 100px; */
+  /* padding-left:500px ; */
+}
+
+
+.btn{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background-color: #adadad;
+  color: black;
+  font-size: 22px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  padding: 10px ;
+  box-sizing:border-box ;
+  width:100%;
+  border-radius: 5px;
+}
+
+.createprofile{
+  color: black;
+  background-color: rgba(238, 255, 0, 0.942);
+  border-bottom:1px;
+  border-bottom-style: solid;
+  border-bottom-color: orange;
+  
+}
+.mainmenunav{
+  /* display: flex; */
+  /* justify-content: end; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  
+}
+
+.featureblock{
+  justify-content: center;
+  font-size: 24px;
+  font-family: 'Merriweather', serif;
+  margin-right: 30px;
+  padding: 30px 30px 30px 30px;
+  border-right: 1px;
+  border-right-style: solid;
+  border-color: rgb(176, 172, 172);
+  
+  
+}
+
+.featureblock:last-child{
+  border-right: none;
+  
+}
+
+.featureblock p{
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  
+}
+.featureblock, h1{
+  font-size: 24px;
+}
+
+
+
+
+
+
+.copyright{
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+p {
+  /* font-family: ; */
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 15px 0;
+}
+
+/* Fonts, classes are so I can reuse the styles on a variety of elements */
+.merriweather { font-family: 'Merriweather', serif; }
+      .oswald { font-family: 'Oswald', sans-serif; }
+        .lato { font-family: 'Lato', sans-serif; }
+
+/* Colors */
+/* Dark yellow: #f2ff00 */
+/* Lighter yellow: #ffd900 */
+/* Light gray: #adadad */
+/* Medium gray: #878787 */
+
+/* Background Image */
+/* https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg */
