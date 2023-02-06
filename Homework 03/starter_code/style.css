@@ -9,24 +9,26 @@ body{
 .navheader{
     display: flex;
     background-color:#448b2e ;
-    padding: 10px;
+    padding: 10px 0 10px 10px;
     
 }
 .headerlogo{
     color: white;
     display: flex;
-    background-color: red;
+    /* gap: 30px; */
+    margin-right: 125px;
     
 }
 .headerlogo_nav{
     color: white;
     display: flex;
-    gap: 10px;
+    gap: 30px;
     list-style: none;
+    font-size: 18px;
     margin: 0;
+    padding-left: 0px;
     
-    
-}
+    }
 .header_nav2{
     display: flex;
     justify-content: end;
@@ -34,36 +36,33 @@ body{
     color: white;
     list-style: none;
     margin: 0;
-    padding-left: 800px;
+padding-left: 600px;
     
+}
+.logo{
+    border-radius: 100px;
+    border-color: white;
+    border-style:ridge;
 }
 
 
 .Houses{
     display: grid;
+    border: 10px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 12.5fr 12.5fr 12.5fr 12.5fr 12.5fr 12.5fr 12.5fr 12.5fr;
     background-color: rgb(217, 234, 217);
-    row-gap: 10px;
-    
-
+    gap: 20px;
+    padding: 20px;
 }
 
 .homesforsale{
-    background-color: orange;
     display: flex;
-    margin: 0;
+    margin-left: 40px;
     padding-top: 30px;
     max-height: 50px;
 }
 .realestate{
-    display: flex;
-    justify-content:center;
-    box-sizing: content-box;
-    font-size: 18px;
-    background-color: red;
-    margin: 10px 0 0 0;
-    width: 20%;
+   font-weight: bold;
 
 }
 
@@ -76,21 +75,167 @@ body{
     /* width: 40%; */ 
 }
 
+.divsub1{ 
+    margin: 0;
+}
+
+.div1{
+    background-color: white;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    /* gap: 10px; */
+    /* justify-content: space-around; */
+    /* justify-items: row; */
+
+}
+
 .bedsbathsqft{
     display: flex;
     list-style-type: none;
-    gap: 10px;
+    gap: 5px;
+    color: rgb(98, 96, 96);
+    margin: 0;
+    align-items: baseline;
+    padding-left: 10px;
 }
 
-.divsub1{ background-color: white;
-    gap: 10px;
+.bedrooms{
+   
+    }
+.baths{
+
+}
+.address{
+    color: rgb(123, 154, 123);
+    font-size: 16px;
+    padding-left: 10px;
+    margin: 0;
+    
+}
+.prices{
+    font-size: 18px;
+    padding-left: 10px;
+    margin: 0;
+}
+.corner{
+    color: white;
+    background-color: rgb(72, 170, 72);
+    box-sizing: content-box;
+    max-width: 8%;
+}
+.corner2{
+    color: white;
+    background-color: rgba(155, 158, 155, 0.713);
+    box-sizing: content-box;
+    max-width: 20%;
 }
 
-.houses .div1{
+.houseimage{
     box-sizing: border-box;
-    gap: 10px;
-    justify-content: space-between;
+    height:200px;
+    background-size: cover;
+    background-position: center;
+}
+#house1{
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-1.jpg);
+}
+#house2{
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-2.jpg); 
+}
+#house3{background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-3.jpg)
 
 }
+#house4{background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-4.jpg)
 
+}
+#house5{background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-5.jpg)
 
+}
+#house6{background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-6.jpg)
+
+}
+#house7{background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-7.jpg)
+
+}
+#house8{background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-8.jpg)
+
+}
+#house9{background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-09.jpg)
+
+}
+#house10{background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-10.jpg)
+
+}
+#house11{background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-11.jpg)
+
+}
+#house12{background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-12.jpg)
+
+}
+.bottomnav{
+    
+    width: 100%;
+}
+
+.bottom_Nav{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 20px;
+    color: rgb(39, 144, 39);
+    }
+.bottom_Nav1{
+    display: flex;
+    justify-content: center;
+    color: rgb(110, 110, 110);
+    font-size: 18px;
+    padding-left: 50px;
+    
+}
+.bottom_Nav2{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 20px;
+}
+.states{
+    color: rgb(39, 144, 39);
+}
+.transportation{
+    text-decoration: none;
+    color: rgb(39, 144, 39);
+}
+.bottomSection{
+    margin-left: 20px;
+    padding-bottom: 30px;
+}
+.sectionheader{
+    font-size: 25px;
+    font-weight: bold;
+}
+.sectionparagraph{
+    font-size: 16px;
+
+}
+.penthouse{
+    text-decoration: none;
+    color: rgb(39, 144, 39);
+}
+.footer{
+    display: flex;
+    background-color: rgba(26, 25, 25, 0.777);
+    color: white;
+    padding: 20px 200px 30px 10px;
+    
+}
+.footersection{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-size: 16px;
+    width: 100%;
+}
+.copyright{
+    background-color: green;
+    
+}
