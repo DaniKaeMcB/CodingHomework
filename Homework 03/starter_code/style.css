@@ -16,7 +16,7 @@ body{
     color: white;
     display: flex;
     /* gap: 30px; */
-    margin-right: 125px;
+    margin-right: 200px;
     
 }
 .headerlogo_nav{
@@ -36,13 +36,17 @@ body{
     color: white;
     list-style: none;
     margin: 0;
-padding-left: 600px;
+    padding-left: 1050px;
     
 }
 .logo{
-    border-radius: 100px;
+    border-radius: 50%;
+    padding: 2px 8px;
     border-color: white;
-    border-style:ridge;
+    border-style: ridge;
+    margin-left: 20px;
+    
+    
 }
 
 
@@ -99,11 +103,11 @@ padding-left: 600px;
     padding-left: 10px;
 }
 
-.bedrooms{
-   
+.bedrooms img{
+   height: 12px;
     }
-.baths{
-
+.baths img{
+height: 12px;
 }
 .address{
     color: rgb(123, 154, 123);
@@ -182,8 +186,13 @@ padding-left: 600px;
     list-style-type: none;
     justify-content: center;
     gap: 20px;
-    color: rgb(39, 144, 39);
+
     }
+.bottom_nav{
+    color: rgb(39, 144, 39);
+    text-decoration: none;
+}
+
 .bottom_Nav1{
     display: flex;
     justify-content: center;
@@ -200,6 +209,7 @@ padding-left: 600px;
 }
 .states{
     color: rgb(39, 144, 39);
+    text-decoration: none;
 }
 .transportation{
     text-decoration: none;
